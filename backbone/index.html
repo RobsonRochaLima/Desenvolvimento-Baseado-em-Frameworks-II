@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<link rel="stylesheet" href="css/style.css" />	
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	   	<title>Backbone.js</title>
+	</head>
+
+	<body>
+
+		<!-- MENU -->
+		<nav class="navbar navbar-inverse" role="navigation">
+			<a href="index.html">HOME</a>
+			<a href="#helloview">VIEW</a>	<!-- sem parametro-->		
+			<a href="#router/parametro">ROUTER</a> <!--com parametro -->		
+			<a href="#newrouter/1/2/3">ROUTER-DINÂMICA</a> <!--com varios parametro -->		
+
+		</nav>
+		
+		
+			
+
+		
+		<!-- DEPENDENCIAS BACKBONE.JS -->
+		<script src="js/jquery-min.js"></script>
+		<script src="js/underscore-min.js"></script>
+	    <script src="js/backbone-min.js"></script>		
+		
+		<!-- VIEW - COLLECTION - ROUTER - MODEL-->
+		<script src="view/NovaView.js"></script>
+		<script src="view/HelloView.js"></script>
+		<script src="model/MinhaModel.js"></script>
+		<script src="colecao/MinhaCollection.js"></script>
+		<script src="router/MinhaRouter.js"></script>
+		
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
